@@ -1,0 +1,85 @@
+/* ---------------------tabla------------------- */
+#container{
+    margin: 50px auto;
+   /*  width: 300px; */
+    
+      }
+    
+    
+    table{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+    width: 75%;
+    
+    }
+    
+     th, td{
+      padding: 10px;
+      text-align: center;
+     }
+    
+     th{
+      background-color: #b7b2b0;
+      border-bottom: solid 5px #7b7978;
+      color: black;
+     }
+    
+     tr:nth-child(even){
+      background-color: #ddd;
+     }
+    
+     tr:hover td{
+      background-color: #b5b5b5;
+      color: white;
+     }
+
+/* ----------------boton registrar----------------- */
+.boton{
+	display: block;
+	width: 200px;
+	font-weight: 700;
+	background-color: #b7b2b0;
+	border-radius: 3px;
+	padding: 15px 30px;
+	margin: 50px 165px;
+	color: black;
+	text-decoration: none;
+}
+.boton:hover{
+	background-color:#b5b5b5;
+}
+/* -------- boton editar--------- */
+.btn{
+
+    display: inline-block;
+    padding: 20px 15px;
+    border-radius: 3px;
+    text-decoration: none;
+    
+     }
+.btn-editar{
+
+    color: black;
+    border-radius: 20px;
+
+    }
+.btn-activar{
+
+    color: green;
+    border-radius: 20px;
+
+    }
+    .btn-desactivar{
+
+        color: red;
+        border-radius: 20px;
+    
+        }
+    
+    /* .btn-green:hover{
+    background-color: #32A322;
+    } */

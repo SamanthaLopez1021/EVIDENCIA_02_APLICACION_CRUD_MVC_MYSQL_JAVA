@@ -1,0 +1,113 @@
+/* barra de navegacion*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: rgb(198, 192, 192);
+    font-family: "Roboto", sans-serif;
+    background-size: 800px;  
+      
+}
+
+
+
+header{
+    background-color: white;
+    width: 100%;
+    clear: both;
+    content: "";
+    display: table;
+}
+.navegador{
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav{
+    float: right;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 10px;
+    padding: 35px 20px;
+    float: left;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* logo barra navegacion */
+#logo{
+    width: 85px;
+    height: 85px;
+    float: left;
+    padding: 8px;
+}
+
+.login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+  }
+  .ingresar {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(83, 2, 104, 0.2), 0 5px 5px 0 rgba(94, 1, 122, 0.24);
+    border-radius: 10px;
+  }
+  .ingresar input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  .ingresar button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #790dc7;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 7px;
+  }
+  .ingresar button:hover {
+    background: #7a0b9c;
+  }
+  .ingresar .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+  }
+  .form .message a {
+    color: #e52f2f;
+    text-decoration: none;
+  }
+  .form .register-form {
+    display: none;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+

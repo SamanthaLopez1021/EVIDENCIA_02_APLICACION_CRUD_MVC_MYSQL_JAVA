@@ -1,0 +1,152 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: rgb(198, 192, 192);
+    font-family: "Roboto", sans-serif;
+	justify-content: center ;
+	 
+}
+/* barra de navegacion*/
+
+header{
+    background-color: white;
+    width: 100%;
+    clear: both;
+    content: "";
+    display: table;
+}
+.navegador{
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav{
+    float: right;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 10px;
+    padding: 35px 20px;
+    float: left;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+	
+}
+
+/* logo barra navegacion */
+#logo{
+    width: 85px;
+    height: 85px;
+    float: left;
+    padding: 8px;
+}
+
+/* informacion */
+
+
+/* tarjetas */
+.container{
+	width: 100%;
+	display: flex;
+	max-width: 1100px; 
+	margin:auto;
+
+}
+
+.card{
+	width: 100%;
+	margin: 20px;
+	border-radius: 10px;
+	overflow: hidden;
+	background-color: white;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2); 
+	cursor:default;
+	transition: all 400ms ease;
+}
+.card:hover{
+	box-shadow:5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+
+} 
+.card img{
+	width:100%;
+	height: 210px;
+
+}
+.card .contenido{
+	padding: 15px;
+	text-align: center;
+}
+.card .contenido p{
+	line-height: 1.5;
+	color: #6a6a6a;
+}
+.card .contenido h3{
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+
+
+/* footer */
+footer{
+	background-color: white;
+	height: auto;
+	width: 100% ;
+	color:black
+}
+.footer-content {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.footer-content h3{
+	font-size: 1.8rem;
+	font-weight: 400;
+	text-transform: capitalize;
+	line-height: 3rem;
+
+}
+.footer-content p{
+	max-width: 500px;
+	margin: 10px auto;
+	line-height: 28px;
+	font-size: 14px;
+
+}
+.socials{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem 0 3rem 0 ;
+}
+.socials li{
+	margin: 0 10px;
+	
+}
+.socials a{
+	text-decoration: none;
+	color: black;
+}
+
+.socials a i{
+	font-size: 1.1rem;
+	transition: color .4s ease ;
+	
+}
+
+.socials a:hover i{
+	color: gray;
+}
+
+
